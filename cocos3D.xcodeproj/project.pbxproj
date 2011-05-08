@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6D42331377354600B5EB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6D42321377354600B5EB55 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B6D422F1377354600B5EB55 /* libcocos3D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcocos3D.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6D42321377354600B5EB55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B6D42361377354600B5EB55 /* cocos3D-Prefix.pch */ = {isa = PBXFileReference; path = "cocos3D-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B6D422C1377354600B5EB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6D42331377354600B5EB55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B6D42241377354600B5EB55 = {
+			isa = PBXGroup;
+			children = (
+				1B6D42341377354600B5EB55 /* cocos3D */,
+				1B6D42311377354600B5EB55 /* Frameworks */,
+				1B6D42301377354600B5EB55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B6D42301377354600B5EB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B6D422F1377354600B5EB55 /* libcocos3D.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B6D42311377354600B5EB55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B6D42321377354600B5EB55 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B6D42341377354600B5EB55 /* cocos3D */ = {
+			isa = PBXGroup;
+			children = (
+				1B6D42351377354600B5EB55 /* Supporting Files */,
+			);
+			path = cocos3D;
+			sourceTree = "<group>";
+		};
+		1B6D42351377354600B5EB55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B6D42361377354600B5EB55 /* cocos3D-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B6D422D1377354600B5EB55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B6D422E1377354600B5EB55 /* cocos3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B6D42391377354600B5EB55 /* Build configuration list for PBXNativeTarget "cocos3D" */;
+			buildPhases = (
+				1B6D422B1377354600B5EB55 /* Sources */,
+				1B6D422C1377354600B5EB55 /* Frameworks */,
+				1B6D422D1377354600B5EB55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cocos3D;
+			productName = cocos3D;
+			productReference = 1B6D422F1377354600B5EB55 /* libcocos3D.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B6D42261377354600B5EB55 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1B6D42291377354600B5EB55 /* Build configuration list for PBXProject "cocos3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B6D42241377354600B5EB55;
+			productRefGroup = 1B6D42301377354600B5EB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B6D422E1377354600B5EB55 /* cocos3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B6D422B1377354600B5EB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B6D42371377354600B5EB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B6D42381377354600B5EB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1B6D423A1377354600B5EB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/cocos3D.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocos3D/cocos3D-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B6D423B1377354600B5EB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/cocos3D.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocos3D/cocos3D-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B6D42291377354600B5EB55 /* Build configuration list for PBXProject "cocos3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6D42371377354600B5EB55 /* Debug */,
+				1B6D42381377354600B5EB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B6D42391377354600B5EB55 /* Build configuration list for PBXNativeTarget "cocos3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6D423A1377354600B5EB55 /* Debug */,
+				1B6D423B1377354600B5EB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B6D42261377354600B5EB55 /* Project object */;
+}
