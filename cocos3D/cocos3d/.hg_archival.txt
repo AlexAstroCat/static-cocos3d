@@ -1,0 +1,4 @@
+repo: eab7e651f4623ccef027dec638397e66d5b2ddc3
+node: f5cd4df5048c11faf7eab456a2a7b8479fcfe664
+branch: default
+tag: cocos3d 0.5.4
