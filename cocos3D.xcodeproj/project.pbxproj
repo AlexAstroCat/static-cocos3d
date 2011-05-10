@@ -851,7 +851,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/dependancies/libcocos2d/Headers/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/dependancies/libcocos2d/Debug";
 				OTHER_CFLAGS = "-lcocos2d";
 				SDKROOT = iphoneos;
 			};
@@ -867,7 +866,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/dependancies/libcocos2d/Headers/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/dependancies/libcocos2d/Release";
 				OTHER_CFLAGS = "-lcocos2d";
 				SDKROOT = iphoneos;
 			};
